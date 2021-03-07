@@ -19,9 +19,9 @@ namespace projeto_08
     {
         static List<Product> products = new List<Product>();
         static private string connectionStr = 
-            "Server=tcp:kumulus-paoli.database.windows.net,1433;" + 
+            "Server=tcp:<server-adress>;" + 
             "Initial Catalog=test_database;Persist Security Info=False;" + 
-            "User ID=login;Password=Password123;" + 
+            "User ID=<Login>;Password=<Password>;" + 
             "MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=True;Connection Timeout=30;";
 
         [FunctionName("CreateProduct")]
